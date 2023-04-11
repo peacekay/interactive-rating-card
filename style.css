@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Overpass:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Overpass;
+    gap: 0.5em;
+   
+}
+.container{
+    background-color:  hsl(213, 19%, 18%);
+    max-width:800px;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+
+}
+header{
+    background-color:  hsl(213, 18%, 23%);
+    border-radius: 5em;
+    width: 4em;
+    height: 4em;
+    position: relative;
+
+}
+img{
+    display: block;
+    width: 1.5em;
+    position: absolute;
+    margin: 1.3rem;
+}
+h2{
+    color:  hsl(0, 0%, 100%);
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
+
+p{
+    color:hsl(217, 12%, 63%);
+    font-size: 2.1em;
+
+}
+
+nav{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+div{
+    display: flex;
+    background-color:  hsl(213, 18%, 23%);
+    border-radius: 50%;
+    width:4em ;
+    height:4em;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    /* margin-right: 5px; */
+}
+
+
+li{
+    color: hsl(217, 12%, 63%);
+    list-style: none;
+    
+}
+
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 3em;
+    border: none;
+    font-size: 1.5em;
+}
+
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+@media screen and (max-width : 700px) {
+    body{
+        max-width: 100vh;
+        margin: auto;
+    }
+    
+    .container{
+        background-color:  hsl(213, 19%, 18%);
+        max-width: 500px;
+        border-radius: 1rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    p{
+       
+        font-size: 1.5em;
+
+    }
+}
